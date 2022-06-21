@@ -11,6 +11,7 @@ Please check the official laravel installation guide for server requirements bef
 
 To install with [Docker](https://www.docker.com), run following commands:
 
+First you need to install docker and docker-compose in your system then run these commands
 ```
 git clone git@github.com:TusharJoy/backend-test.git
 cd backend-test
@@ -19,7 +20,7 @@ cp .env.example.docker .env
 
 ```
 
-The api can be accessed at [http://localhost:80/api](http://localhost:8000/api).
+The api can be accessed at [http://localhost:80/api/v1](http://localhost:80/api/v1).
 
 ## Folders
 
@@ -43,7 +44,7 @@ The api can be accessed at [http://localhost:80/api](http://localhost:8000/api).
 
 # Testing API
 
-Run the laravel development server
+Check the .env.testing and phpunit.xml
 
     ./vendor/bin/sail test
 
